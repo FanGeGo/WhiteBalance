@@ -13,6 +13,7 @@ if numberOfColorBands == 1
 	rgbImage = ind2rgb(rgbImage, colorMap); % Will be in the 0-1 range.
 	rgbImage = uint8(255*rgbImage); % Convert to the 0-255 range.
 end
+
 % Orjinal fotoğrafın tam ekran gösterimi
 imshow(rgbImage);
 title('Resmi çizin ve çift tıklayın', 'FontSize', fontSize);
